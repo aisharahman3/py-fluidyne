@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+fluidyne/__init__.py
+fluidyne.egg-info/PKG-INFO
+fluidyne.egg-info/SOURCES.txt
+fluidyne.egg-info/dependency_links.txt
+fluidyne.egg-info/top_level.txt

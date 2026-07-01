@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: fluidyne
+Version: 2.0.1
+Summary: Pipe flow: Reynolds, Colebrook-White friction factor and Darcy head loss.
+Author: Nadia Haddad
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+fluidyne
+========
+
+Pipe flow: Reynolds, Colebrook-White friction factor and Darcy head loss.
+
+Usage::
+
+    import fluidyne
+    print(round(fluidyne.friction_factor(2e5,0.0002,0.05),5))
